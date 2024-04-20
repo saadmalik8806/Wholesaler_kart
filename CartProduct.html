@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+     <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom css file  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awsome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-light" style="background-color: #DB2C53;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a class="nav-link" href="#" style="font-size: 12px; color: #000;">No Retail  I  Only For Wholesaler  I  Minimum 6 Piece Order</a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#" style="font-size: 12px; color: #000;">No Retail  I  Only For Wholesaler  I  Minimum 6 Piece Order</a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#" style="font-size: 12px; color: #000;">No Retail  I  Only For Wholesaler  I  Minimum 6 Piece Order</a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#" style="font-size: 12px; color: #000;">No Retail  I  Only For Wholesaler  I  Minimum 6 Piece Order</a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#" style="font-size: 12px; color: #000;">No Retail  I  Only For Wholesaler  I  Minimum 6 Piece Order</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-light" style="background-color: #fff;">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+            <span>WHOLESALERKART</span>
+          </a>
+          <ul class="navbar-nav d-flex flex-row">
+              
+            <li class="nav-item">
+              <a class="nav-link ml-3" href="#"><i class="fas fa-bell"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-4" href="#"><i class="fas fa-shopping-basket"></i></a>
+            </li>
+          </ul>
+      </nav>
+
+
+      <style>
+    
+        .quantity {
+          display: flex;
+          /* border: 2px solid #3498db; */
+          border-radius: 4px;
+          overflow: hidden;
+          /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        }
+        
+        .quantity button {
+          background-color: #3498db;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-size: 20px;
+          width: 30px;
+          height: auto;
+          text-align: center;
+          transition: background-color 0.2s;
+        }
+        
+        .quantity button:hover {
+          background-color: #2980b9;
+        }
+        
+        .input-box {
+          width: 40px;
+          text-align: center;
+          border: none;
+          padding: 8px 10px;
+          font-size: 16px;
+          outline: none;
+        }
+        
+        /* Hide the number input spin buttons */
+        .input-box::-webkit-inner-spin-button,
+        .input-box::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+        
+        .input-box[type="number"] {
+          -moz-appearance: textfield;
+        }
+        
+        </style>
+
+      <section class="custom-section mt-4" style="background-color: #F7F7F7; overflow-x: hidden;">
+        <div class="row">
+          <div class="col-md-12 text-center mt-4 mb-4">
+              <h2>Cart</h2>
+          </div>
+      </div>
+       <div class="row">
+        <div class="col-md-12 text-center mb-4 mt-3"> <!-- Centering the box -->
+          <!-- First Card -->
+          <div style="display: inline-block; background-color: white; padding: 20px; border-radius: 10px; width: 75%;" class="mb-3"> <!-- Adjusting the width to 75% and adding space between cards -->
+              <div class="row">
+                  <div class="col-md-4" style="padding-right: 0;">
+                    <input type="checkbox" class="mr-2">
+                      <img src="images/rectangle-46@2x.png" width="40%" height="40%" alt="Product Image" style="max-width: 100%; height: auto;">
+                  </div>
+                  <div class="col-md-5" style="padding-left: 0;">
+                      
+                      <h2>₹3,999</h2>
+                      <p>Kevon Classic</p>
+                  </div>
+                  <div class="col-md-2">
+                      <!-- Quantity -->
+                      <div class="quantity">
+                        <button class="minus" aria-label="Decrease">&minus;</button>
+                        <input type="number" class="input-box" value="1" min="1" max="10">
+                        <button class="plus" aria-label="Increase">&plus;</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Second Card -->
+          <div style="display: inline-block; background-color: white; padding: 20px; border-radius: 10px; width: 75%;" class="mb-3"> <!-- Adjusting the width to 75% and adding space between cards -->
+              <div class="row">
+                  <div class="col-md-4" style="padding-right: 0;">
+                    <input type="checkbox" class="mr-2">
+                      <img src="images/rectangle-48@2x.png" width="40%" height="40%" alt="Product Image" style="max-width: 100%; height: auto;">
+                  </div>
+                  <div class="col-md-5" style="padding-left: 0;">
+                      
+                      <h2>₹3,999</h2>
+                      <p>Kevon Classic</p>
+                  </div>
+                  <div class="col-md-2">
+                    <!-- Quantity -->
+                    <div class="quantity">
+                      <button class="minus" aria-label="Decrease">&minus;</button>
+                      <input type="number" class="input-box" value="1" min="1" max="10">
+                      <button class="plus" aria-label="Increase">&plus;</button>
+                    </div>
+                </div>
+              </div>
+          </div>
+      
+          <!-- Third Card -->
+          <div style="display: inline-block; background-color: white; padding: 20px; border-radius: 10px; width: 75%;"> <!-- Adjusting the width to 75% -->
+              <div class="row">
+                  <div class="col-md-4" style="padding-right: 0;">
+                    <input type="checkbox" class="mr-2">
+                      <img src="images/rectangle-44@2x.png" width="40%" height="40%" alt="Product Image" style="max-width: 100%; height: auto;">
+                  </div>
+                  <div class="col-md-5" style="padding-left: 0;">
+                      
+                     
+                      <h2>₹3,999</h2>
+                      <p>Kevon Classic</p>
+                  </div>
+                  <div class="col-md-2">
+                    <!-- Quantity -->
+                    <div class="quantity">
+                      <button class="minus" aria-label="Decrease">&minus;</button>
+                      <input type="number" class="input-box" value="1" min="1" max="10">
+                      <button class="plus" aria-label="Increase">&plus;</button>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Fifth section -->
+<section class="custom-section" style="background-color: #F7F7F7; overflow-x: hidden;">
+  <div class="row">
+    <div class="col-md-12 text-center mt-4 mb-4">
+        <img src="images/You May Also Like.png" alt="">
+    </div>
+</div>
+
+<!-- cards stat here  -->
+<style>
+.shop-default #divProductList {
+transition: all 0.1s ease-in-out;
+-webkit-transition: all 0.1s ease-in-out
+}
+
+.shop-default .shop-grid-section-header {
+height: 62px;
+padding: 15px;
+border-bottom: 1px solid #f1f1f1
+}
+
+.shop-default .shop-grid-section-header .shop-grid-section-title {
+margin: 0;
+padding: 0 1rem;
+font-size: 1rem;
+font-family: "Nunito", sans-serif;
+font-weight: 600;
+color: #111
+}
+
+.shop-default .shop-grid-section-footer {
+padding: 1rem
+}
+
+.shop-default .btn-view-mode {
+font-size: 20px;
+line-height: 1.6;
+margin-right: 0;
+color: #eceeef
+}
+
+.shop-default .btn-view-mode.active {
+color: #2b2b2c
+}
+
+.shop-default .aux-text {
+display: inline-block;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+font-size: .875rem;
+color: #2b2b2c
+}
+
+.shop-default .btn-reset-filters {
+font-weight: 400
+}
+
+.shop-default .btn-reset-filters>i {
+margin-right: 5px;
+font-size: 13px
+}
+
+.shop-default .product .price-wrapper .price {
+font-size: 32px;
+color: #2b2b2c
+}
+
+.shop-default .product .price-wrapper .price sup {
+font-size: 16px;
+top: -1em;
+font-weight: 400
+}
+
+.shop-default .product .price-wrapper .price .price-value {
+margin: 0 3px
+}
+
+.shop-default .product .price-wrapper .price.discount {
+text-decoration: none;
+margin-right: 8px
+}
+
+.shop-default .product .price-wrapper .price.discount .price-value {
+margin: 0 1px;
+font-weight: 400;
+font-size: 24px;
+text-decoration: line-through
+}
+
+.shop-default .product .price-wrapper .price.discount sup {
+font-size: 14px
+}
+
+.shop-default .product .price-wrapper .price.discount sup.price-value-dec {
+text-decoration: line-through
+}
+
+.shop-default .product .product-colors .product-colors-label {
+display: block;
+margin-bottom: 4px;
+text-transform: uppercase;
+color: #2b2b2c;
+font-size: .75rem;
+font-weight: 500
+}
+
+.shop-default .product .product-colors .color-switch a {
+display: inline-block;
+float: none !important;
+width: 16px;
+height: 16px;
+margin-right: 3px;
+margin-bottom: 0;
+border-radius: .25rem
+}
+
+.shop-default .filter-sidebar {
+padding: 30px
+}
+
+.shop-default .filter-sidebar .filter-checkbox .checkbox {
+margin-bottom: 15px
+}
+
+.shop-default .filter-sidebar .filter-checkbox .checkbox label {
+padding-left: 10px
+}
+
+.shop-default .product figure {
+border: 0
+}
+
+.shop-default .product .switch-on-hover img {
+display: none;
+opacity: 0;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out
+}
+
+.shop-default .product .switch-on-hover img.img-primary {
+display: block;
+opacity: 1
+}
+
+.shop-default .product:hover .switch-on-hover img {
+display: block;
+opacity: 1
+}
+
+.shop-default .product:hover .switch-on-hover img.img-primary {
+display: none;
+opacity: 0
+}
+
+.shop-cards .product.product--style-2 {
+position: relative
+}
+
+.shop-cards .product.product--style-2 .product-image {
+display: inline-block;
+float: left;
+width: 40%
+}
+
+.shop-cards .product.product--style-2 .product-content {
+display: inline-block;
+width: 60%
+}
+
+.shop-cards .product.product--style-2 .product-content .product-info {
+position: absolute;
+right: 20px;
+bottom: 12px
+}
+
+.shop-cards .product.product--style-2 .product-content .product-info .price-wrapper {
+display: block;
+margin-bottom: 10px
+}
+
+.shop-cards .product.product--style-2 .product-content .product-icon-btn {
+display: inline-block;
+margin-right: 10px;
+font-size: 16px;
+color: #2b2b2c;
+font-weight: 500
+}
+
+.shop-cards .product.product--style-2 .product-content .product-icon-btn.active {
+color: #3452ff
+}
+
+.shop-cards .product.product--style-2 .product-content .product-icon-btn:last-child {
+margin-right: 0
+}
+
+.shop-cards .product.product--style-2 .product-content .product-icon-btn:hover {
+color: #3452ff
+}
+
+.shop-cards .product .product-description {
+color: #818a91;
+font-size: .875rem;
+line-height: 1.6
+}
+
+.shop-cards .product .product-long-description {
+max-width: 360px;
+margin: 0 auto
+}
+
+.shop-cards.shop-tech .product-buttons .btn-cart {
+font-size: 0.625rem !important;
+padding: 0.625rem 0.875rem !important
+}
+
+.shop-cards.shop-tech .product-buttons .btn-icon {
+background: transparent;
+border: 0;
+text-align: center;
+font-size: 1.2rem;
+padding: 2px;
+color: #818a91;
+border: 0;
+cursor: pointer
+}
+
+.shop-cards.shop-tech .product-buttons .btn-icon:hover,
+.shop-cards.shop-tech .product-buttons .btn-icon.active {
+color: #2b2b2c
+}
+
+.shop-cards .product .price-wrapper .price-sm {
+font-size: 24px
+}
+
+.shop-cards .product .price-wrapper .price-sm.discount .price-value {
+font-size: 1rem;
+font-weight: 600
+}
+
+.shop-grid .product {
+margin: 0;
+padding: 1.5rem
+}
+
+.shop-sportswear .product {
+background-color: #FFF
+}
+
+.shop-sportswear .block-image {
+padding: 1.5rem
+}
+
+.shop-minimalist .product {
+border: 0
+}
+
+.shop-minimalist .product .product-image {
+position: relative;
+background: #ebebeb;
+padding: 2rem
+}
+
+.shop-minimalist .product:not(.no-radius) .product-image,
+.shop-minimalist .product .product-image .mask {
+border-radius: .25rem
+}
+
+.shop-minimalist .product .product-image .product-title {
+color: #fff;
+font-size: 1rem;
+font-weight: 600;
+text-transform: none;
+margin: 30px 0
+}
+
+.shop-minimalist .product .product-image .product-price-wrapper {
+position: absolute;
+bottom: 30px;
+left: 0;
+width: 100%
+}
+
+.shop-minimalist .product .product-image .product-price {
+font-weight: 400;
+color: #fff
+}
+
+.shop-minimalist .product .product-image .product-price .price-value {
+font-size: 24px
+}
+
+.shop-minimalist .product .product-image .product-price.discount {
+padding: 7px 0 0;
+margin-right: 4px;
+font-size: .875rem;
+font-weight: 400;
+color: #ff3b30;
+text-decoration: line-through
+}
+
+.product .product-actions--1.in,
+.product .product-actions--2.in,
+.product .product-actions--3.in {
+opacity: 1
+}
+
+.product .product-actions--1.animated,
+.product .product-actions--2.animated,
+.product .product-actions--3.animated {
+-webkit-animation-duration: 0.5s;
+-moz-animation-duration: 0.5s;
+-ms-animation-duration: 0.5s;
+-o-animation-duration: 0.5s;
+animation-duration: 0.5s
+}
+
+.product .product-actions--1 {
+opacity: 0;
+width: 42px;
+position: absolute;
+left: 15px;
+bottom: 20px
+}
+
+.product .product-actions--1 .btn-product-action {
+display: block;
+width: 100%;
+height: 38px;
+line-height: 38px;
+margin-bottom: 6px;
+border: 0;
+border-radius: 38px;
+background: #eceeef;
+color: #2b2b2c;
+font-size: 18px;
+outline: 0;
+cursor: pointer
+}
+
+.product .product-actions--1 .btn-product-action:hover {
+background: #3452ff;
+color: #FFF;
+border-color: #0127ff
+}
+
+.product .product-actions--1 .btn-product-action:active {
+border-color: transparent
+}
+
+.product .product-actions--2 {
+opacity: 0;
+width: 80px;
+height: 40px;
+position: absolute;
+right: 0;
+bottom: 0;
+background: rgba(255, 255, 255, 0.9)
+}
+
+.product .product-actions--2 .btn-product-action {
+display: inline-block;
+float: left;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border: 0;
+background: transparent;
+color: #2b2b2c;
+font-size: 1rem;
+outline: 0;
+cursor: pointer
+}
+
+.product .product-actions--2 .btn-product-action:hover {
+background: transparent;
+color: #3452ff
+}
+
+.product .product-actions--2 .btn-product-action:active {
+border-color: transparent
+}
+
+.product .product-actions--3 {
+opacity: 0;
+width: 80px;
+height: 40px;
+position: absolute;
+top: 10px;
+left: 10px;
+background: transparent
+}
+
+.product .product-actions--3.in {
+opacity: 1
+}
+
+.product .product-actions--3 .btn-product-action {
+display: inline-block;
+float: left;
+width: 40px;
+height: 40px;
+line-height: 40px;
+border: 0;
+background: transparent;
+color: #2b2b2c;
+font-size: 1rem;
+outline: 0;
+cursor: pointer
+}
+
+.product .product-actions--3 .btn-product-action:hover {
+background: transparent;
+color: #3452ff
+}
+
+.product .product-actions--3 .btn-product-action:active {
+border-color: transparent
+}
+
+.product-ribbon {
+position: absolute;
+top: 15px
+}
+
+.product-ribbon.product-ribbon-left {
+left: 15px
+}
+
+.product-ribbon.product-ribbon-right {
+right: 15px
+}
+
+.product-ribbon.no-space {
+top: 0
+}
+
+.product-ribbon.no-space.product-ribbon-left {
+left: 0
+}
+
+.product-ribbon.no-space.product-ribbon-right {
+right: 0
+}
+
+.product-ribbon.product-ribbon--style-1 {
+width: 48px;
+height: 48px;
+border-radius: 100%;
+text-align: center;
+line-height: 48px;
+font-size: 11px;
+z-index: 10
+}
+
+.product-swiper-container {
+position: relative;
+padding-top: 20px
+}
+
+.product-swiper-container .swiper-slide img {
+max-width: 100%
+}
+
+.product-swiper-container .swiper-pagination {
+top: 0;
+bottom: auto;
+text-align: left
+}
+
+.product-description-wrapper .product-title {
+margin: 0;
+padding: 0;
+font-size: 1.25rem;
+font-weight: 600;
+font-family: "Nunito", sans-serif;
+color: #2b2b2c
+}
+
+.product-description-wrapper .product-category-label {
+margin: 0 0 20px;
+padding: 0;
+font-weight: 400;
+color: #818a91
+}
+
+.product-description-wrapper .product-short-text {
+margin: 16px 0
+}
+
+.product-description-wrapper .product-price {
+margin: 16px 0;
+font-size: 36px;
+font-weight: 400;
+color: #2b2b2c
+}
+
+.product-description-wrapper .product-price.discount {
+padding: 7px 0 0;
+margin-right: 4px;
+font-size: .875rem;
+font-weight: 400;
+color: #ff3b30;
+text-decoration: line-through
+}
+
+.product-description-wrapper .product-short-info {
+margin: 30px 0
+}
+
+.product-description-wrapper .product-short-info span {
+display: block;
+padding: 4px
+}
+
+.product-description-wrapper .product-short-info strong {
+font-weight: 500;
+color: #818a91;
+margin-right: 5px
+}
+
+.block {
+margin: 0;
+-webkit-transition: all 0.3s linear;
+transition: all 0.3s linear;
+position: relative;
+cursor: default;
+border-radius: .25rem .25rem .25rem;
+-moz-border-radius: .25rem .25rem .25rem
+}
+
+.block:after,
+.block:before {
+display: table;
+content: ""
+}
+
+.block:after {
+clear: both
+}
+
+a>.block {
+cursor: pointer
+}
+
+.block.no-radius>.block-image img {
+border-radius: 0 !important
+}
+
+.block .lead {
+margin-bottom: 0
+}
+
+.block-stack-wrapper {
+border-radius: .25rem
+}
+
+.block-stack-wrapper .row {
+background: #fff
+}
+
+@media (max-width: 991px) {
+.block-stack-wrapper .row {
+  margin-bottom: 20px
+}
+}
+
+.block .block-body {
+padding: 1.5rem 1.5rem
+}
+
+.block .block-body>p {
+margin-bottom: 0
+}
+
+.block .block-image {
+-webkit-transition: all 0.3s linear;
+transition: all 0.3s linear;
+position: relative
+}
+
+.block .block-image img {
+max-width: 100%
+}
+.z-depth-2-top, .z-depth-2-top--hover:hover {
+box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.text-uppercase {
+text-transform: uppercase !important;
+}
+.bg-blue {
+background-color: #007aff !important;
+color: #FFF;
+}
+.product-ribbon {
+position: absolute;
+top: 15px;
+}
+.bg-pink {
+background-color: #ff2d55 !important;
+color: #FFF;
+}
+.bg-purple {
+background-color: #5856d6 !important;
+color: #FFF;
+}
+
+.strong-600 {
+font-weight: 600 !important;
+}
+.text-capitalize {
+text-transform: capitalize !important;
+}
+.heading-5 {
+font-size: 1.125rem !important;
+}
+.heading {
+margin: 0 0 6px;
+padding: 0;
+text-transform: none;
+font-family: "Nunito",sans-serif;
+font-weight: 600;
+color: #111;
+line-height: 1.46;
+}
+</style>
+<div class="container">
+  <div class="shop-default shop-cards shop-tech">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="block product no-border z-depth-2-top z-depth-2--hover">
+              <div class="block-image">
+                  <a href="#">
+                      <img src="images/rectangle-43@2x.png" class="img-center" width="100%" height="auto">
+                  </a>
+                  <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+              </div>
+              <div class="block-body text-center" style="background-color: #fff;">
+                  <h3 class="heading heading-5 strong-600 text-capitalize">
+                      <a href="#" style="color: #000;">
+                        Kevon Classic
+                      </a>
+                  </h3>
+                  <h2 class="product-description">
+                    ₹3,999
+                  </h2>
+                  <div class="product-colors mt-2">
+                     <label for=""></label>
+                  </div>
+                  <div class="product-buttons mt-4">
+                      <div class="row align-items-center">
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                  <i class="fa fa-heart"></i>
+                              </button>
+                          </div>
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                  <i class="fa fa-share"></i>
+                              </button>
+                          </div>
+                          <div class="col-8">
+                              <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                  <i class="fa fa-shopping-cart"></i>Add to cart
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  
+          <div class="col-md-6">
+              <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                  <div class="block-image">
+                      <a href="#">
+                          <img src="images/rectangle-44@2x.png" class="img-center" width="100%" height="auto">
+                      </a>
+                      <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                  </div>
+  
+                  <div class="block-body text-center" style="background-color: #fff;">
+                      <h3 class="heading heading-5 strong-600 text-capitalize">
+                          <a href="#" style="color: #000;">
+                            Kevon Classic
+                          </a>
+                      </h3>
+                      <h2 class="product-description">
+                        ₹3,999
+                      </h2>
+                      <div class="product-colors mt-2">
+                          <label for=""></label>
+                      </div>
+                      <div class="product-buttons mt-4">
+                          <div class="row align-items-center">
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                      <i class="fa fa-heart"></i>
+                                  </button>
+                              </div>
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                      <i class="fa fa-share"></i>
+                                  </button>
+                              </div>
+                              <div class="col-8">
+                                  <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                      <i class="fa fa-shopping-cart"></i>Add to cart
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="block product no-border z-depth-2-top z-depth-2--hover">
+              <div class="block-image">
+                  <a href="#">
+                      <img src="images/rectangle-43@2x.png" class="img-center" width="100%" height="auto">
+                  </a>
+                  <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+              </div>
+              <div class="block-body text-center" style="background-color: #fff;">
+                  <h3 class="heading heading-5 strong-600 text-capitalize">
+                      <a href="#" style="color: #000;">
+                        Kevon Classic
+                      </a>
+                  </h3>
+                  <h2 class="product-description">
+                    ₹3,999
+                  </h2>
+                  <div class="product-colors mt-2">
+                     <label for=""></label>
+                  </div>
+                  <div class="product-buttons mt-4">
+                      <div class="row align-items-center">
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                  <i class="fa fa-heart"></i>
+                              </button>
+                          </div>
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                  <i class="fa fa-share"></i>
+                              </button>
+                          </div>
+                          <div class="col-8">
+                              <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                  <i class="fa fa-shopping-cart"></i>Add to cart
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  
+          <div class="col-md-6">
+              <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                  <div class="block-image">
+                      <a href="#">
+                          <img src="images/rectangle-44@2x.png" class="img-center" width="100%" height="auto">
+                      </a>
+                      <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                  </div>
+  
+                  <div class="block-body text-center" style="background-color: #fff;">
+                      <h3 class="heading heading-5 strong-600 text-capitalize">
+                          <a href="#" style="color: #000;">
+                            Kevon Classic
+                          </a>
+                      </h3>
+                      <h2 class="product-description">
+                        ₹3,999
+                      </h2>
+                      <div class="product-colors mt-2">
+                          <label for=""></label>
+                      </div>
+                      <div class="product-buttons mt-4">
+                          <div class="row align-items-center">
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                      <i class="fa fa-heart"></i>
+                                  </button>
+                              </div>
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                      <i class="fa fa-share"></i>
+                                  </button>
+                              </div>
+                              <div class="col-8">
+                                  <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                      <i class="fa fa-shopping-cart"></i>Add to cart
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="block product no-border z-depth-2-top z-depth-2--hover">
+              <div class="block-image">
+                  <a href="#">
+                      <img src="images/rectangle-43@2x.png" class="img-center" width="100%" height="auto">
+                  </a>
+                  <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+              </div>
+              <div class="block-body text-center" style="background-color: #fff;">
+                  <h3 class="heading heading-5 strong-600 text-capitalize">
+                      <a href="#" style="color: #000;">
+                        Kevon Classic
+                      </a>
+                  </h3>
+                  <h2 class="product-description">
+                    ₹3,999
+                  </h2>
+                  <div class="product-colors mt-2">
+                     <label for=""></label>
+                  </div>
+                  <div class="product-buttons mt-4">
+                      <div class="row align-items-center">
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                  <i class="fa fa-heart"></i>
+                              </button>
+                          </div>
+                          <div class="col-2">
+                              <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                  <i class="fa fa-share"></i>
+                              </button>
+                          </div>
+                          <div class="col-8">
+                              <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                  <i class="fa fa-shopping-cart"></i>Add to cart
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  
+          <div class="col-md-6">
+              <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                  <div class="block-image">
+                      <a href="#">
+                          <img src="images/rectangle-44@2x.png" class="img-center" width="100%" height="auto">
+                      </a>
+                      <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                  </div>
+  
+                  <div class="block-body text-center" style="background-color: #fff;">
+                      <h3 class="heading heading-5 strong-600 text-capitalize">
+                          <a href="#" style="color: #000;">
+                            Kevon Classic
+                          </a>
+                      </h3>
+                      <h2 class="product-description">
+                        ₹3,999
+                      </h2>
+                      <div class="product-colors mt-2">
+                          <label for=""></label>
+                      </div>
+                      <div class="product-buttons mt-4">
+                          <div class="row align-items-center">
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                      <i class="fa fa-heart"></i>
+                                  </button>
+                              </div>
+                              <div class="col-2">
+                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                      <i class="fa fa-share"></i>
+                                  </button>
+                              </div>
+                              <div class="col-8">
+                                  <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;">
+                                      <i class="fa fa-shopping-cart"></i>Add to cart
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container mb-4" style="background-color: #fff;">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="white-box">
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <!-- Display total amount here -->
+                            <h4 class="text-right">Total Amount: <span style="color: #DB2C53;">₹100</span></h4>
+                            <p class="text-right">Tax: <span style="color: #DB2C53;">₹4,50</span></p>
+                        </div>
+                        <div class="col-md-6 mb-4 text-right">
+                            <!-- Checkout button -->
+                            <button type="button" class="btn btn-" style="background-color: #20394F; color: #fff;" onclick="redirectToProductDetailPage()">Process to Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+<!-- cards end here  -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+     <!-- footer start here  -->
+  <style>   
+      
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    img {
+max-width: 100%;
+height: auto;
+}.footer-section {
+background-color: #fff;
+position: relative;
+overflow: hidden;
+z-index: 9;
+}
+.footer-section:before {
+content: '';
+position: absolute;
+top: -146%;
+left: -18%;
+width: 44%;
+height: 257%;
+transform: rotate(54deg);
+background-color: #fff;
+-webkit-transform: rotate(54deg);
+-moz-transform: rotate(54deg);
+-ms-transform: rotate(54deg);
+-o-transform: rotate(54deg);
+z-index: -10;
+}
+.footer-section:after {
+position: absolute;
+content: '';
+background-color: #fff;
+top: -24%;
+right: 4%;
+width: 26%;
+height: 264%;
+transform: rotate(44deg);
+-webkit-transform: rotate(44deg);
+-moz-transform: rotate(44deg);
+-ms-transform: rotate(44deg);
+-o-transform: rotate(44deg);
+z-index: -10;
+}
+.footer-top {
+padding-top: 96px;
+padding-bottom: 50px;
+}
+.footer-top p,
+.company-footer-contact-list li {
+color: #000;
+}
+.company-footer-contact-list {
+margin-top: 10px;
+}
+.company-footer-contact-list li {
+display: flex;
+display: -webkit-flex;
+align-items: center;
+}
+.company-footer-contact-list li+li {
+margin-top: 5px;
+}
+.company-footer-contact-list li i {
+margin-right: 10px;
+font-size: 20px;
+display: inline-block;
+}
+
+.footer-top .site-logo {
+margin-bottom: 25px;
+display: block;
+max-width: 170px;
+}
+.widget-title {
+text-transform: capitalize;
+}
+.footer-top .widget-title {
+color: #000;
+margin-bottom: 40px;
+}
+.courses-link-list li+li {
+margin-top: 10px;
+}
+.courses-link-list li a {
+color: #000;
+text-transform: capitalize;
+font-family: var(--para-font);
+font-weight: 400;
+}
+.courses-link-list li a:hover {
+color: #ffb606;
+}
+.courses-link-list li i {
+margin-right: 5px;
+}
+.footer-top .small-post-title a {
+font-family: var(--para-font);
+color: #000;
+font-weight: 400;
+}
+.small-post-item .post-date {
+color: #ffb606;
+margin-bottom: 3px;
+font-family: var(--para-font);
+font-weight: 400;
+}
+.small-post-list li+li {
+margin-top: 30px;
+}
+.news-letter-form {
+margin-top: 15px;
+}
+.news-letter-form input {
+width: 100%;
+padding: 12px 25px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border: none;
+}
+.news-letter-form input[type="submit"] {
+width: auto;
+border: none;
+background-color: #ffb606;
+padding: 9px 30px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+color: #000;
+margin-top: 10px;
+}
+.footer-bottom {
+padding: 13px 0;
+border-top: 1px solid rgba(255, 255, 255, 0.149);
+}
+.copy-right-text {
+color: #000;
+}
+.copy-right-text a {
+color: #ffb606;
+}
+.terms-privacy li+li {
+margin-left: 30px;
+}
+.terms-privacy li a {
+color: #000;
+position: relative;
+}
+.terms-privacy li a:after {
+position: absolute;
+content: '-';
+color: #000;
+display: inline-block;
+top: 0;
+right: -18px;
+}
+.terms-privacy li+li a:after {
+display: none;
+}
+</style>
+  <footer class="footer-section">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="widget course-links-widget">
+                  <h4 class="widget-title">Product Policy</h4>
+                  <ul class="courses-link-list">
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>100% Authentic</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Free Return</a></li>
+                    <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Quality Assured</a></li>
+                    
+                  </ul>
+                </div>
+              </div><!-- widget end -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="widget course-links-widget">
+              <h4 class="widget-title">VIPSHOP</h4>
+              <ul class="courses-link-list">
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i> Terms of Service</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
+              
+              </ul>
+            </div>
+          </div><!-- widget end -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="widget course-links-widget">
+              <h4 class="widget-title">CUSTOMER CARE</h4>
+              <ul class="courses-link-list">
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>64328355</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Live Chat</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Feedback</a></li>
+                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>FAQ</a></li>
+                
+              </ul>
+            </div>
+          </div><!-- widget end -->
+          <style>
+            .social-icons {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+}
+
+.social-icon {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the spacing between icons */
+  font-size: 20px; /* Adjust the icon size */
+  color: #333; /* Adjust the icon color */
+}
+
+.social-icon:first-child {
+  margin-left: 0;
+}
+
+          </style>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://wa.me/1234567890" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          
+          </div><!-- widget end -->
+        </div>
+      </div> 
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-sm-left text-center">
+              <span class="copy-right-text">© 2024 <a href="@">Wholesaler</a> All Rights Reserved.</span>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div><!-- footer-bottom end -->
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      (function () {
+    const quantityContainer = document.querySelector(".quantity");
+    const minusBtn = quantityContainer.querySelector(".minus");
+    const plusBtn = quantityContainer.querySelector(".plus");
+    const inputBox = quantityContainer.querySelector(".input-box");
+  
+    updateButtonStates();
+  
+    quantityContainer.addEventListener("click", handleButtonClick);
+    inputBox.addEventListener("input", handleQuantityChange);
+  
+    function updateButtonStates() {
+      const value = parseInt(inputBox.value);
+      minusBtn.disabled = value <= 1;
+      plusBtn.disabled = value >= parseInt(inputBox.max);
+    }
+  
+    function handleButtonClick(event) {
+      if (event.target.classList.contains("minus")) {
+        decreaseValue();
+      } else if (event.target.classList.contains("plus")) {
+        increaseValue();
+      }
+    }
+  
+    function decreaseValue() {
+      let value = parseInt(inputBox.value);
+      value = isNaN(value) ? 1 : Math.max(value - 1, 1);
+      inputBox.value = value;
+      updateButtonStates();
+      handleQuantityChange();
+    }
+  
+    function increaseValue() {
+      let value = parseInt(inputBox.value);
+      value = isNaN(value) ? 1 : Math.min(value + 1, parseInt(inputBox.max));
+      inputBox.value = value;
+      updateButtonStates();
+      handleQuantityChange();
+    }
+  
+    function handleQuantityChange() {
+      let value = parseInt(inputBox.value);
+      value = isNaN(value) ? 1 : value;
+  
+      // Execute your code here based on the updated quantity value
+      console.log("Quantity changed:", value);
+    }
+  })();
+  
+    </script>
+    <script>
+      function redirectToProductDetailPage() {
+          window.location.href = 'check-out.html';
+      }
+  </script>
+</body>
+</html>

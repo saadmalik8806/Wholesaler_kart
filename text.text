@@ -1,0 +1,2287 @@
+
+
+
+
+
+
+
+    sizing
+
+
+
+
+
+
+
+
+
+                    html
+
+
+
+
+
+
+
+                      <!-- Fifth section -->
+<section class="custom-section " style="background-color: #F7F7F7;">
+    
+   <div class="col-md-3">
+    
+    
+    <section class="panel">
+        <div class="panel-body">
+            <ul class="nav prod-cat">
+                <li>
+                    <a href="#">Tote Bags</a>
+                </li>
+                <li>
+                    <a href="#">Sling Bags</a>
+                </li>
+                <li>
+                    <a href="#">Card Holder</a>
+                </li>
+                <li>
+                    <a href="#">Shoulder Bags</a>
+                </li>
+                <li>
+                    <a href="#">Wallet</a>
+                </li>
+                <li>
+                    <a href="#">Satchel</a>
+                </li>
+                <li>
+                    <a href="#">Sports</a>
+                </li>
+                <li>
+                    <a href="#">Technology</a>
+                </li>
+                <li>
+                    <a href="#">Hand Bags</a>
+                </li>
+                <li>
+                    <a href="#">Designer Bags</a>
+                </li>
+                <li>
+                    <a href="#">Crossbody Bags</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+   
+
+</div>
+    <div class="" style="margin-top: 30px; margin-bottom: 40px; overflow: hidden;">
+        <div class="col-md-12 text-center">
+            <h2>Shop Under ₹599</h2>
+        </div>
+    </div>
+   
+    <div class="container bootdey">
+        <div class="col-md-9">
+            <div class="row product-list">
+                    <div class="">
+                      <div class="shop-default shop-cards shop-tech">
+                          <div class="row">
+                            <div class="col-md-4 mb-4">
+                              <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                                  <div class="block-image">
+                                      <a href="#">
+                                          <img src="images/rectangle-43@2x.png" class="img-center" width="100%" height="auto">
+                                      </a>
+                                      <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                                  </div>
+                                  <div class="block-body text-center" style="background-color: #fff;">
+                                      <h3 class="heading heading-5 strong-600 text-capitalize">
+                                          <a href="#" style="color: #000;">
+                                            Kevon Classic
+                                          </a>
+                                      </h3>
+                                      <h2 class="product-description">
+                                        ₹3,999
+                                      </h2>
+                                      <div class="product-colors mt-2">
+                                         <label for=""></label>
+                                      </div>
+                                      <div class="product-buttons mt-4">
+                                          <div class="row align-items-center">
+                                              <div class="col-2">
+                                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                                      <i class="fa fa-heart"></i>
+                                                  </button>
+                                              </div>
+                                              <div class="col-2">
+                                                  <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                                      <i class="fa fa-share"></i>
+                                                  </button>
+                                              </div>
+                                              <div class="col-8">
+                                                <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;" onclick="redirectToProductDetailPage()">
+                                                    Add to cart
+                                                </button> 
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                      <div class="col-md-4">
+                                  <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                                      <div class="block-image">
+                                          <a href="#">
+                                              <img src="images/rectangle-44@2x.png" class="img-center" width="100%" height="auto">
+                                          </a>
+                                          <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                                      </div>
+                      
+                                      <div class="block-body text-center" style="background-color: #fff;">
+                                          <h3 class="heading heading-5 strong-600 text-capitalize">
+                                              <a href="#" style="color: #000;">
+                                                Kevon Classic
+                                              </a>
+                                          </h3>
+                                          <h2 class="product-description">
+                                            ₹3,999
+                                          </h2>
+                                          <div class="product-colors mt-2">
+                                              <label for=""></label>
+                                          </div>
+                                          <div class="product-buttons mt-4">
+                                              <div class="row align-items-center">
+                                                  <div class="col-2">
+                                                      <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                                          <i class="fa fa-heart"></i>
+                                                      </button>
+                                                  </div>
+                                                  <div class="col-2">
+                                                      <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                                          <i class="fa fa-share"></i>
+                                                      </button>
+                                                  </div>
+                                                  <div class="col-8">
+                                                      <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;" onclick="redirectToProductDetailPage()">
+                                                          Add to cart
+                                                      </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="block product no-border z-depth-2-top z-depth-2--hover">
+                                      <div class="block-image">
+                                          <a href="#">
+                                              <img src="images/rectangle-44@2x.png" class="img-center" width="100%" height="auto">
+                                          </a>
+                                          <span class="product-ribbon product-ribbon-right product-ribbon--style-1 bg-blue text-uppercase">New</span>
+                                      </div>
+                      
+                                      <div class="block-body text-center" style="background-color: #fff;">
+                                          <h3 class="heading heading-5 strong-600 text-capitalize">
+                                              <a href="#" style="color: #000;">
+                                                Kevon Classic
+                                              </a>
+                                          </h3>
+                                          <h2 class="product-description">
+                                            ₹3,999
+                                          </h2>
+                                          <div class="product-colors mt-2">
+                                              <label for=""></label>
+                                          </div>
+                                          <div class="product-buttons mt-4">
+                                              <div class="row align-items-center">
+                                                  <div class="col-2">
+                                                      <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Favorite">
+                                                          <i class="fa fa-heart"></i>
+                                                      </button>
+                                                  </div>
+                                                  <div class="col-2">
+                                                      <button type="button" class="btn-icon" data-toggle="tooltip" data-placement="top" title="" data-original-title="Compare">
+                                                          <i class="fa fa-share"></i>
+                                                      </button>
+                                                  </div>
+                                                  <div class="col-8">
+                                                    <button type="button" class="btn btn-block btn-circle btn-icon-left" style="background-color: #20394F; color: #fff;" onclick="redirectToProductDetailPage()">
+                                                        Add to cart
+                                                    </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        
+                         
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+images/image-20@2x.png
+
+
+images/image-15@2x.png
+
+images/image-18@2x.png
+
+
+https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460149/abof.png
+
+https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png
+https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png
+
+
+https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png
+
+
+
+  <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="">
+                <div class="flip-card-front">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  </div>
+                </div>
+                <div class="">
+                <div class="flip-card-back">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+              
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png" class="img-fluid" alt="">
+              
+                    </a>
+                  </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="">
+                <div class="flip-card-front">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  </div>
+                </div>
+                <div class="">
+                <div class="flip-card-back">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+              
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" class="img-fluid" alt="">
+              
+                    </a>
+                  </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="">
+                <div class="flip-card-front">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  </div>
+                </div>
+                <div class="">
+                <div class="flip-card-back">
+                  <div class="client-logo">
+                    <a href="Brand_Listing.html">
+              
+                      <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png" class="img-fluid" alt="">
+              
+                    </a>
+                  </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          
+ <!-- best seller section start -->
+ <section class="custom-section" style="overflow: hidden;">
+  <!-- Content for fifth section -->
+  <div class="row mt-4">
+    <div class="col-md-12 text-center mt-4 mb-4">
+        <img src="images/Best Seller.png" alt="">
+    </div>
+</div>
+</section>
+<style>
+   /* Override button styles */
+.btn.btn-secondar {
+    background-color: transparent; /* Remove button background color */
+    border: 1px solid #000; /* Add button border */
+    color: #000;
+}
+
+/* Hover effect (optional) */
+.btn.btn-secondar:hover {
+    color: #207A07; /* Change text color on hover */
+    border-color: #207A07; /* Change border color on hover */
+}
+</style>
+<section class="custom-section mt-4 ml-4" style="background-color: #F7F7F7;">
+  <div class="container mb-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="dropdown">
+                <button class="btn btn-secondar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Price Low to High
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">₹1 - ₹2</a>
+                  <a class="dropdown-item" href="#">₹2 - ₹3</a>
+                  <a class="dropdown-item" href="#">₹3 - 4</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dropdown">
+                <button class="btn btn-secondar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Filter by Color
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dropdown">
+                <button class="btn btn-secondar dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Filter by Style
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                  <a class="dropdown-item" href="#">Xyz - Xyz</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <section class="panel">
+                  <div class="panel-body">
+                      <ul class=" prod-cat">
+                          <li><a href="#">Tote Bags</a></li>
+                          <li><a href="#">Sling Bags</a></li>
+                          <li><a href="#">Card Holder</a></li>
+                          <li><a href="#">Shoulder Bags</a></li>
+                          <li><a href="#">Wallet</a></li>
+                          <li><a href="#">Satchel</a></li>
+                          <li><a href="#">Sports</a></li>
+                          <li><a href="#">Technology</a></li>
+                          <li><a href="#">Hand Bags</a></li>
+                          <li><a href="#">Designer Bags</a></li>
+                          <li><a href="#">Crossbody Bags</a></li>
+                      </ul>
+                  </div>
+              </section>
+          </div>
+<style>
+  .card5{
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 299px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+</style>
+          <div class="col-md-9">
+              <div class="row product-list">
+                  <!-- Card 1 -->
+                  <div class="mr-4">
+                    <div class="card5 mt-2">
+                        <div class="info">
+                            <img src="images/image-20@2x.png" alt="foto del producto">
+                            <h4 class="title">Kevon Classic</h4>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 60</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="discount">-15%</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Card 2 -->
+                  <div class=" mr-4">
+                    <div class="card5 mt-2">
+                        <div class="info">
+                            <img src="images/image-20@2x.png" alt="foto del producto">
+                            <h4 class="title">Kevon Classic</h4>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 60</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="discount">-15%</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Card 3 -->
+                  <div class="mr-4">
+                    <div class="card5 mt-2">
+                        <div class="info">
+                            <img src="images/image-20@2x.png" alt="foto del producto">
+                            <h4 class="title">Kevon Classic</h4>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 60</p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="discount">-15%</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <p class="price">$ 600</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                  <div class="card5 mt-2">
+                      <div class="info">
+                          <img src="images/image-20@2x.png" alt="foto del producto">
+                          <h4 class="title">Kevon Classic</h4>
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+ <!-- best seller section end here -->
+ video slider section start here 
+
+<section class="custom-section mt-4" style="overflow: hidden;">
+  <div class="row">
+    <div class="col-md-12 text-center mt-4 mb-4">
+        <h2>Youtube Video's</h2>
+    </div>
+</div>
+  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <iframe width="285" height="315" src="https://www.youtube.com/embed/id00R-3OmJ0?si=6oFdFatBerdY6RwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+  </section>
+
+
+ video slider section end here 
+ insta section start here 
+
+<style>
+  
+        
+  :root {
+          --color-bg: rgb(0 0 0 / 3%);
+          --color-blue: #2196F3;
+          --color-yellow: #FDD835;
+          --color-red: #E53935;
+          --color-green: #388E3C;
+        
+          --card-width: 240px; /* Decrease card width */
+          --card-height: 300px; /* Increase card height */
+          --card-aspect-ratio: var(--card-width) / var(--card-height);
+          
+          --arrow-size: 2.5rem;
+          --arrow-icon-size: 1.75rem;
+          --arrow-icon-color: rgb(0 0 0 / 50%);
+          --arrow-icon-color-hover: rgb(0 0 0 / 75%);
+          --arrow-bg-color: transparent;
+          --arrow-bg-color-hover: rgb(0 0 0 / 10%);
+          
+          --bullet-size: .5rem;
+          
+          --transition-speed: .5s;
+          --transition-bezier: cubic-bezier(0.55, -0.85, 0.2, 1.85);
+          
+          --icon-arrow: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIwLDExVjEzSDhMMTMuNSwxOC41TDEyLjA4LDE5LjkyTDQuMTYsMTJMMTIuMDgsNC4wOEwxMy41LDUuNUw4LDExSDIwWiIgLz48L3N2Zz4=");
+        }
+        
+  .large-card {
+      height: 400px; /* Set the height of the large card */
+  }
+  
+  .small-card {
+      height: 200px; /* Set the height of the small cards */
+  }
+
+  .slider {
+          position: relative;
+          width: calc(var(--card-width) + calc(var(--arrow-size) * 2) + 2rem);
+        }
+        
+        .slider__cards {
+          width: var(--card-width);
+          height: var(--card-height); /* Set card height */
+          aspect-ratio: var(--card-aspect-ratio);
+          position: relative;
+          margin-inline: auto;
+        }
+        
+        .slider__card {
+          width: var(--card-width);
+          height: var(--card-height); /* Set card height */
+          aspect-ratio: var(--card-aspect-ratio);
+          border-radius: .5rem;
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          transition: opacity var(--transition-speed) ease-in-out;
+        }
+        
+        .slider__card[active] {
+          opacity: 1;
+        }
+        
+        .slider__card--blue {
+          background-color: var(--color-blue);
+        }
+        
+        .slider__card--green {
+          background-color: var(--color-green);
+        }
+        
+        .slider__card--yellow {
+          background-color: var(--color-yellow);
+        }
+        
+        .slider__card--red {
+          background-color: var(--color-red);
+        }
+        
+        .slider__arrows {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        .slider__arrow {
+          height: var(--arrow-size);
+          width: var(--arrow-size);
+          background-color: var(--arrow-bg-color);
+          border-radius: 50%;
+          border: none;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+        
+        .slider__arrow[disabled] {
+          opacity: .25;
+          pointer-events: none;
+        }
+        
+        .slider__arrow:is(:hover, :focus-visible) {
+          background-color: var(--arrow-bg-color-hover);
+        }
+        
+        .slider__arrow::after {
+          content: '';
+          display: block;
+          height: var(--arrow-icon-size);
+          width: var(--arrow-icon-size);
+          mask-position: center;
+          -webkit-mask-position: center;
+          mask-size: contain;
+          -webkit-mask-size: contain;
+          mask-repeat: no-repeat;
+          -webkit-mask-repeat: no-repeat;
+          mask-image: var(--icon-arrow);
+          -webkit-mask-image: var(--icon-arrow);
+          background-color: var(--arrow-icon-color);
+        }
+        
+        
+        .slider__bullets {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: .5rem;
+          position: absolute;
+          left: 0;
+          bottom: 1rem;
+          pointer-events: none;
+        }
+        
+        .slider__bullet {
+          display: block;
+          height: var(--bullet-size);
+          width: var(--bullet-size);
+          background-color: white;
+          border: none;
+          border-radius: 2rem;
+          transition: width var(--transition-speed) var(--transition-bezier);
+        }
+        
+        .slider__bullet[active] {
+          width: calc(var(--bullet-size) * 3);
+        }
+        #clients3{
+          padding: 51px 60px;
+        }
+         /* Add custom styles if needed */
+         .card {
+            /* Optional: Add custom styles to the cards */
+            margin-bottom: 20px;
+        }
+</style>
+<style>
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .panel {
+      background-color: #006400; /* Dark green background color */
+  }
+
+  .panel-body {
+      padding: 20px;
+  }
+
+  .prod-cat {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  .prod-cat li {
+      margin-bottom: 80px; /* Increase margin bottom */
+  }
+
+  .prod-cat li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      padding: 15px; /* Increase padding */
+      border-radius: 5px;
+  }
+
+  .prod-cat li a:hover {
+      background-color: #32CD32; /* Light green hover color */
+  }
+
+  .prod-cat li.active a {
+      background-color: #90EE90; /* Light green active color */
+  }
+</style>
+<style>
+  .shop-default #divProductList {
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out
+  }
+  
+  .shop-default .shop-grid-section-header {
+  height: 62px;
+  padding: 15px;
+  border-bottom: 1px solid #f1f1f1
+  }
+  
+  .shop-default .shop-grid-section-header .shop-grid-section-title {
+  margin: 0;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #111
+  }
+  
+  .shop-default .shop-grid-section-footer {
+  padding: 1rem
+  }
+  
+  .shop-default .btn-view-mode {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-right: 0;
+  color: #eceeef
+  }
+  
+  .shop-default .btn-view-mode.active {
+  color: #2b2b2c
+  }
+  
+  .shop-default .aux-text {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: .875rem;
+  color: #2b2b2c
+  }
+  
+  .shop-default .btn-reset-filters {
+  font-weight: 400
+  }
+  
+  .shop-default .btn-reset-filters>i {
+  margin-right: 5px;
+  font-size: 13px
+  }
+  
+  .shop-default .product .price-wrapper .price {
+  font-size: 32px;
+  color: #2b2b2c
+  }
+  
+  .shop-default .product .price-wrapper .price sup {
+  font-size: 16px;
+  top: -1em;
+  font-weight: 400
+  }
+  
+  .shop-default .product .price-wrapper .price .price-value {
+  margin: 0 3px
+  }
+  
+  .shop-default .product .price-wrapper .price.discount {
+  text-decoration: none;
+  margin-right: 8px
+  }
+  
+  .shop-default .product .price-wrapper .price.discount .price-value {
+  margin: 0 1px;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: line-through
+  }
+  
+  .shop-default .product .price-wrapper .price.discount sup {
+  font-size: 14px
+  }
+  
+  .shop-default .product .price-wrapper .price.discount sup.price-value-dec {
+  text-decoration: line-through
+  }
+  
+  .shop-default .product .product-colors .product-colors-label {
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  color: #2b2b2c;
+  font-size: .75rem;
+  font-weight: 500
+  }
+  
+  .shop-default .product .product-colors .color-switch a {
+  display: inline-block;
+  float: none !important;
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  margin-bottom: 0;
+  border-radius: .25rem
+  }
+  
+  .shop-default .filter-sidebar {
+  padding: 30px
+  }
+  
+  .shop-default .filter-sidebar .filter-checkbox .checkbox {
+  margin-bottom: 15px
+  }
+  
+  .shop-default .filter-sidebar .filter-checkbox .checkbox label {
+  padding-left: 10px
+  }
+  
+  .shop-default .product figure {
+  border: 0
+  }
+  
+  .shop-default .product .switch-on-hover img {
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out
+  }
+  
+  .shop-default .product .switch-on-hover img.img-primary {
+  display: block;
+  opacity: 1
+  }
+  
+  .shop-default .product:hover .switch-on-hover img {
+  display: block;
+  opacity: 1
+  }
+  
+  .shop-default .product:hover .switch-on-hover img.img-primary {
+  display: none;
+  opacity: 0
+  }
+  
+  .shop-cards .product.product--style-2 {
+  position: relative
+  }
+  
+  .shop-cards .product.product--style-2 .product-image {
+  display: inline-block;
+  float: left;
+  width: 40%
+  }
+  
+  .shop-cards .product.product--style-2 .product-content {
+  display: inline-block;
+  width: 60%
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-info {
+  position: absolute;
+  right: 20px;
+  bottom: 12px
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-info .price-wrapper {
+  display: block;
+  margin-bottom: 10px
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-icon-btn {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #2b2b2c;
+  font-weight: 500
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-icon-btn.active {
+  color: #3452ff
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-icon-btn:last-child {
+  margin-right: 0
+  }
+  
+  .shop-cards .product.product--style-2 .product-content .product-icon-btn:hover {
+  color: #3452ff
+  }
+  
+  .shop-cards .product .product-description {
+  color: #818a91;
+  font-size: .875rem;
+  line-height: 1.6
+  }
+  
+  .shop-cards .product .product-long-description {
+  max-width: 360px;
+  margin: 0 auto
+  }
+  
+  .shop-cards.shop-tech .product-buttons .btn-cart {
+  font-size: 0.625rem !important;
+  padding: 0.625rem 0.875rem !important
+  }
+  
+  .shop-cards.shop-tech .product-buttons .btn-icon {
+  background: transparent;
+  border: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2px;
+  color: #818a91;
+  border: 0;
+  cursor: pointer
+  }
+  
+  .shop-cards.shop-tech .product-buttons .btn-icon:hover,
+  .shop-cards.shop-tech .product-buttons .btn-icon.active {
+  color: #2b2b2c
+  }
+  
+  .shop-cards .product .price-wrapper .price-sm {
+  font-size: 24px
+  }
+  
+  .shop-cards .product .price-wrapper .price-sm.discount .price-value {
+  font-size: 1rem;
+  font-weight: 600
+  }
+  
+  .shop-grid .product {
+  margin: 0;
+  padding: 1.5rem
+  }
+  
+  .shop-sportswear .product {
+  background-color: #FFF
+  }
+  
+  .shop-sportswear .block-image {
+  padding: 1.5rem
+  }
+  
+  .shop-minimalist .product {
+  border: 0
+  }
+  
+  .shop-minimalist .product .product-image {
+  position: relative;
+  background: #ebebeb;
+  padding: 2rem
+  }
+  
+  .shop-minimalist .product:not(.no-radius) .product-image,
+  .shop-minimalist .product .product-image .mask {
+  border-radius: .25rem
+  }
+  
+  .shop-minimalist .product .product-image .product-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  margin: 30px 0
+  }
+  
+  .shop-minimalist .product .product-image .product-price-wrapper {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%
+  }
+  
+  .shop-minimalist .product .product-image .product-price {
+  font-weight: 400;
+  color: #fff
+  }
+  
+  .shop-minimalist .product .product-image .product-price .price-value {
+  font-size: 24px
+  }
+  
+  .shop-minimalist .product .product-image .product-price.discount {
+  padding: 7px 0 0;
+  margin-right: 4px;
+  font-size: .875rem;
+  font-weight: 400;
+  color: #ff3b30;
+  text-decoration: line-through
+  }
+  
+  .product .product-actions--1.in,
+  .product .product-actions--2.in,
+  .product .product-actions--3.in {
+  opacity: 1
+  }
+  
+  .product .product-actions--1.animated,
+  .product .product-actions--2.animated,
+  .product .product-actions--3.animated {
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s
+  }
+  
+  .product .product-actions--1 {
+  opacity: 0;
+  width: 42px;
+  position: absolute;
+  left: 15px;
+  bottom: 20px
+  }
+  
+  .product .product-actions--1 .btn-product-action {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  margin-bottom: 6px;
+  border: 0;
+  border-radius: 38px;
+  background: #eceeef;
+  color: #2b2b2c;
+  font-size: 18px;
+  outline: 0;
+  cursor: pointer
+  }
+  
+  .product .product-actions--1 .btn-product-action:hover {
+  background: #3452ff;
+  color: #FFF;
+  border-color: #0127ff
+  }
+  
+  .product .product-actions--1 .btn-product-action:active {
+  border-color: transparent
+  }
+  
+  .product .product-actions--2 {
+  opacity: 0;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9)
+  }
+  
+  .product .product-actions--2 .btn-product-action {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  background: transparent;
+  color: #2b2b2c;
+  font-size: 1rem;
+  outline: 0;
+  cursor: pointer
+  }
+  
+  .product .product-actions--2 .btn-product-action:hover {
+  background: transparent;
+  color: #3452ff
+  }
+  
+  .product .product-actions--2 .btn-product-action:active {
+  border-color: transparent
+  }
+  
+  .product .product-actions--3 {
+  opacity: 0;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: transparent
+  }
+  
+  .product .product-actions--3.in {
+  opacity: 1
+  }
+  
+  .product .product-actions--3 .btn-product-action {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 0;
+  background: transparent;
+  color: #2b2b2c;
+  font-size: 1rem;
+  outline: 0;
+  cursor: pointer
+  }
+  
+  .product .product-actions--3 .btn-product-action:hover {
+  background: transparent;
+  color: #3452ff
+  }
+  
+  .product .product-actions--3 .btn-product-action:active {
+  border-color: transparent
+  }
+  
+  .product-ribbon {
+  position: absolute;
+  top: 15px
+  }
+  
+  .product-ribbon.product-ribbon-left {
+  left: 15px
+  }
+  
+  .product-ribbon.product-ribbon-right {
+  right: 15px
+  }
+  
+  .product-ribbon.no-space {
+  top: 0
+  }
+  
+  .product-ribbon.no-space.product-ribbon-left {
+  left: 0
+  }
+  
+  .product-ribbon.no-space.product-ribbon-right {
+  right: 0
+  }
+  
+  .product-ribbon.product-ribbon--style-1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 48px;
+  font-size: 11px;
+  z-index: 10
+  }
+  
+  .product-swiper-container {
+  position: relative;
+  padding-top: 20px
+  }
+  
+  .product-swiper-container .swiper-slide img {
+  max-width: 100%
+  }
+  
+  .product-swiper-container .swiper-pagination {
+  top: 0;
+  bottom: auto;
+  text-align: left
+  }
+  
+  .product-description-wrapper .product-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #2b2b2c
+  }
+  
+  .product-description-wrapper .product-category-label {
+  margin: 0 0 20px;
+  padding: 0;
+  font-weight: 400;
+  color: #818a91
+  }
+  
+  .product-description-wrapper .product-short-text {
+  margin: 16px 0
+  }
+  
+  .product-description-wrapper .product-price {
+  margin: 16px 0;
+  font-size: 36px;
+  font-weight: 400;
+  color: #2b2b2c
+  }
+  
+  .product-description-wrapper .product-price.discount {
+  padding: 7px 0 0;
+  margin-right: 4px;
+  font-size: .875rem;
+  font-weight: 400;
+  color: #ff3b30;
+  text-decoration: line-through
+  }
+  
+  .product-description-wrapper .product-short-info {
+  margin: 30px 0
+  }
+  
+  .product-description-wrapper .product-short-info span {
+  display: block;
+  padding: 4px
+  }
+  
+  .product-description-wrapper .product-short-info strong {
+  font-weight: 500;
+  color: #818a91;
+  margin-right: 5px
+  }
+  
+  .block {
+  margin: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  cursor: default;
+  border-radius: .25rem .25rem .25rem;
+  -moz-border-radius: .25rem .25rem .25rem
+  }
+  
+  .block:after,
+  .block:before {
+  display: table;
+  content: ""
+  }
+  
+  .block:after {
+  clear: both
+  }
+  
+  a>.block {
+  cursor: pointer
+  }
+  
+  .block.no-radius>.block-image img {
+  border-radius: 0 !important
+  }
+  
+  .block .lead {
+  margin-bottom: 0
+  }
+  
+  .block-stack-wrapper {
+  border-radius: .25rem
+  }
+  
+  .block-stack-wrapper .row {
+  background: #fff
+  }
+  
+  @media (max-width: 991px) {
+  .block-stack-wrapper .row {
+    margin-bottom: 20px
+  }
+  }
+  
+  .block .block-body {
+  padding: 1.5rem 1.5rem
+  }
+  
+  .block .block-body>p {
+  margin-bottom: 0
+  }
+  
+  .block .block-image {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative
+  }
+  
+  .block .block-image img {
+  max-width: 100%
+  }
+  .z-depth-2-top, .z-depth-2-top--hover:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+  .text-uppercase {
+  text-transform: uppercase !important;
+  }
+  .bg-blue {
+  background-color: #007aff !important;
+  color: #FFF;
+  }
+  .product-ribbon {
+  position: absolute;
+  top: 15px;
+  }
+  .bg-pink {
+  background-color: #ff2d55 !important;
+  color: #FFF;
+  }
+  .bg-purple {
+  background-color: #5856d6 !important;
+  color: #FFF;
+  }
+  
+  .strong-600 {
+  font-weight: 600 !important;
+  }
+  .text-capitalize {
+  text-transform: capitalize !important;
+  }
+  .heading-5 {
+  font-size: 1.125rem !important;
+  }
+  .heading {
+  margin: 0 0 6px;
+  padding: 0;
+  text-transform: none;
+  font-family: "Nunito",sans-serif;
+  font-weight: 600;
+  color: #111;
+  line-height: 1.46;
+  }
+  </style>
+<section class="custom-section">
+  <section class="custom-section mt-4">
+      <div class="container">
+        <section id="clients3" class="section-bg" style="background-image: url('images/Rectangle\ 78.png'); border-radius: 26.08px;">
+    
+          <div class="section-header2 mb-4"> <!-- Align the section header text to the left -->
+            <h1 style="color: #fff;">NEW ON WHOLESALER KART</h1>
+          </div>
+         
+          
+          <div class="container">
+            <div class="row">
+                <!-- Large card on the left -->
+                <div class="col-lg-6 mb-4">
+                    <div class="cards large-card">
+                      <div class="container">
+                        <div class="slider">
+                          <div class="slider__cards">
+                            <div class="slider__card slider__card--blue"></div>
+                            <div class="slider__card slider__card--yellow"></div>
+                            <div class="slider__card slider__card--red"></div>
+                            <div class="slider__card slider__card--green"></div>
+                          </div>
+                          <div class="slider__bullets"></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- Four small cards on the right -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <!-- First small card -->
+                        <div class="col-md-6">
+                            <div class="cards small-card">
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title">Video 1</h5>
+                                    <!-- <p class="card-text">This is small card content 1.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second small card -->
+                        <div class="col-md-6">
+                            <div class="cards small-card">
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title">Video 2</h5>
+                                    <!-- <p class="card-text">This is small card content 2.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Third small card -->
+                        <div class="col-md-6">
+                            <div class="cards small-card">
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title">Video 3</h5>
+                                    <!-- <p class="card-text">This is small card content 3.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fourth small card -->
+                        <div class="col-md-6">
+                            <div class="cards small-card">
+                                <div class="card-body" style="background-color: #fff;">
+                                    <h5 class="card-title">Video 4</h5>
+                                    <!-- <p class="card-text">This is small card content 4.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          
+        <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="cards">
+                      <div class="card-body" style="background-color: #fff;">
+                          <h5 class="card-title">Video 5</h5>
+                          <!-- <p class="card-text">Content for card 1.</p> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="cards">
+                      <div class="card-body" style="background-color: #fff;">
+                          <h5 class="card-title">Video 6</h5>
+                          <!-- <p class="card-text">Content for card 2.</p> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="cards">
+                      <div class="card-body" style="background-color: #fff;">
+                          <h5 class="card-title">Video 7</h5>
+                          <!-- <p class="card-text">Content for card 3.</p> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="cards">
+                      <div class="card-body" style="background-color: #fff;">
+                          <h5 class="card-title">Video 8</h5>
+                          <!-- <p class="card-text">Content for card 4.</p> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+          
+          
+        </section>
+      </div>
+    </section>
+</section>
+  <!-- Fifth section -->
+
+
+ insta section end here 
+
+ deals section start here 
+
+<!-- Fifth section -->
+<style>
+ 
+  .section-bg3 {
+      position: relative;
+      background-image: url('images/Group 38.png'); /* Set the background image */
+      background-size: cover; /* Adjust the size to cover the entire section */
+      /* background-position: center; Center the background image */
+      background-repeat: no-repeat; /* Prevent the background image from repeating */
+      padding: 52px 0;
+      width: 100%;
+      height: 100%;
+      margin-top: 100px;
+      
+  }
+  .section-header2 {
+      text-align: left; /* Align text to the left */
+      padding-left: 20px; /* Add left padding to create space */
+  }
+  .section-header2 p {
+      font-size: 15px;
+      color: #556877;
+      padding-bottom: 60px;
+      width: 50%;
+  }
+  .section-header2 h1 {
+      font-size: 36px;
+      color: #fff;
+      font-weight: 500;
+      position: relative;
+      z-index: 2; /* Ensure the text appears on top of the color overlay */
+  }
+   
+  #clients2 {
+      /* padding: 60px 27px; */
+  }
+  #clients2 .clients-wrap {
+      border-top: 1px solid #d6eaff;
+      border-left: 1px solid #d6eaff;
+      margin-bottom: 30px;
+  }
+  .container-wrapper {
+  background-color: #fff; 
+  border-radius: 26.08px;
+  padding: 20px 59px;
+  width: 100%;
+  margin-bottom: -52px;
+}
+</style>
+
+<section class="custom-section mt-4">
+  <div class="container">
+    <section id="clients2" class="section-bg3" style="border-radius: 26.08px;">
+      <div class="section-header2 mb-4"> 
+        <h1 style="color: #fff;">DEALS FOR CORPORATES GIFTING </h1>
+      </div>
+      <div class="container-wrapper">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-20@2x.png" alt='foto del producto'>
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-15@2x.png" alt='foto del producto'>
+                          <!-- <h4 class="title">Second Product</h4> -->
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      
+                      
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-18@2x.png" alt='foto del producto'>
+                          <!-- <h4 class="title">Third Product</h4> -->
+                          
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-20@2x.png" alt='foto del producto'>
+                          <!-- <h4 class="title">Modern Headphone</h4> -->
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-15@2x.png" alt='foto del producto'>
+                          <!-- <h4 class="title">Second Product</h4> -->
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      
+                      
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mt-2">
+                      <div class="info">
+                          <img src="images/image-18@2x.png" alt='foto del producto'>
+                          <!-- <h4 class="title">Third Product</h4> -->
+                          
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 60</p>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <div class="discount">-15%</div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                      <p class="price">$ 600</p>
+                                  </div>
+                              </div>
+                          </div>
+                      
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+
+  <!-- Fifth section -->
+  <style>
+    .color-overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width as needed */
+    height: 100%;
+    border-radius: 26.08px;
+    background: linear-gradient(107.36deg, #b32efb, #df66ff);
+    opacity: 0.7;
+}
+</style>
+<style>
+
+  .custom-card {
+      box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+      border-radius: 15px;
+      transition: transform .2s;
+  }
+
+  .custom-card-body {
+      padding: 10px;
+      margin-top: -50px;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease-in-out;
+  }
+
+  .custom-heart {
+      color: #989898;
+      margin-top: 15px;
+      margin-left: 230px;
+      font-size: 30px;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 30px;
+      padding: 0px;
+      text-align: center;
+  }
+
+  .custom-heart-active {
+      color: #C50707;
+  }
+
+  .custom-heart:hover {
+      color: red;
+      background-color: #f9f9f9;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease-in-out;
+  }
+
+  .custom-card-body a {
+      visibility: hidden;
+  }
+
+  .custom-card:hover>.custom-card-body {
+      margin-top: -0px;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+
+  .custom-card:hover {
+      transform: scale(1.02);
+  }
+
+  .custom-card:hover>.custom-card-body>a {
+      visibility: visible;
+  }
+
+  .custom-first-image {
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  }
+
+  .custom-cart,
+  .custom-wish {
+      padding: 5px;
+      width: 50px;
+      height: 50px;
+      margin-left: -24px;
+      margin-top: 0px;
+      margin-right: 3px;
+      background-color: #fff;
+      color: #5C7CFA;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      text-align: center;
+      -ms-display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .custom-wish {
+      color: #C50707;
+  }
+
+  #toast,
+  #toast-cart {
+      padding: 10px;
+      padding-left: 5px;
+      position: fixed;
+      width: 230px;
+      height: 50px;
+      top: 0;
+      left: 80%;
+      transform: translate(-50%);
+      background-color: #EFF2FF;
+      color: #76777E;
+      padding: 1px;
+      border-radius: 8px;
+      text-align: center;
+      z-index: 1;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      visibility: hidden;
+      opacity: 0;
+      -ms-display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+  }
+
+  #toast.show,
+  #toast-cart.show {
+      visibility: visible;
+      animation: fadeInOut 3s;
+  }
+
+  @keyframes fadeInOut {
+
+      5%,
+      95% {
+          opacity: 1;
+          top: 50px
+      }
+
+      15%,
+      85% {
+          opacity: 1;
+          top: 30px
+      }
+  }
+</style>
+
+
+ deals section end here 
+
+
+ shop under section start here 
+
+
+<!-- Fifth section -->
+<style>
+      .color-overlay3 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; /* Adjust the width as needed */
+      height: 100%;
+      border-radius: 26.08px;
+      background: linear-gradient(107.36deg, #b32efb, #df66ff);
+      opacity: 0.7;
+  }
+</style>
+<style>
+
+    .custom-card {
+        box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+        border-radius: 15px;
+        transition: transform .2s;
+    }
+
+    .custom-card-body {
+        padding: 10px;
+        margin-top: -50px;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease-in-out;
+    }
+
+    .custom-heart {
+        color: #989898;
+        margin-top: 15px;
+        margin-left: 230px;
+        font-size: 30px;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .custom-heart-active {
+        color: #C50707;
+    }
+
+    .custom-heart:hover {
+        color: red;
+        background-color: #f9f9f9;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease-in-out;
+    }
+
+    .custom-card-body a {
+        visibility: hidden;
+    }
+
+    .custom-card:hover>.custom-card-body {
+        margin-top: -0px;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .custom-card:hover {
+        transform: scale(1.02);
+    }
+
+    .custom-card:hover>.custom-card-body>a {
+        visibility: visible;
+    }
+
+    .custom-first-image {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .custom-cart,
+    .custom-wish {
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+        margin-left: -24px;
+        margin-top: 0px;
+        margin-right: 3px;
+        background-color: #fff;
+        color: #5C7CFA;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        text-align: center;
+        -ms-display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-wish {
+        color: #C50707;
+    }
+
+    #toast,
+    #toast-cart {
+        padding: 10px;
+        padding-left: 5px;
+        position: fixed;
+        width: 230px;
+        height: 50px;
+        top: 0;
+        left: 80%;
+        transform: translate(-50%);
+        background-color: #EFF2FF;
+        color: #76777E;
+        padding: 1px;
+        border-radius: 8px;
+        text-align: center;
+        z-index: 1;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        visibility: hidden;
+        opacity: 0;
+        -ms-display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #toast.show,
+    #toast-cart.show {
+        visibility: visible;
+        animation: fadeInOut 3s;
+    }
+
+    @keyframes fadeInOut {
+
+        5%,
+        95% {
+            opacity: 1;
+            top: 50px
+        }
+
+        15%,
+        85% {
+            opacity: 1;
+            top: 30px
+        }
+    }
+</style>
+<section class="custom-section">
+    <section class="custom-section mt-4">
+        <div class="container">
+          <section id="clients" class="section-bg" style="background-image: url('images/rectangle-36@2x.png'); border-radius: 26.08px;">
+            <div class="color-overlay3"></div> <!-- Add color overlay div -->
+      
+            <div class="section-header2 mb-4"> <!-- Align the section header text to the left -->
+              <h1 style="color: #fff;">SHOP UNDER</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                  
+                    <div class="col-lg-3">
+                        <div class="custom-card" style="width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #FF3CF8; position: relative;">
+                            <div style="position: absolute; top: 10px; left: 10px; color: white; font-weight: bold; font-size: 25px;">₹499</div>
+                            <img src="images/1-d24b14a364fb45fbae7f4175fda5c085removebgpreview-5@2x.png" class="custom-first-image" style="width: 100%; height: 100%; margin-top: 34px;">
+                            <a href="shoplisting-desing.html" style="list-style-type: none; text-decoration: none; color: #000;">
+
+                            <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background-color: white; width: 179px; height: 147px; border-radius: 20px;">
+                                <img src="images/image-21@2x.png" style="width: 100%; height: 100%; ">
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Repeat for other cards -->
+                    <!-- Card 2 -->
+                    <div class="col-lg-3">
+                        <div class="custom-card" style="width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #7957F6; position: relative;">
+                            <div style="position: absolute; top: 10px; left: 10px; color: white; font-weight: bold; font-size: 25px;">₹599</div>
+                            <img src="images/1-d24b14a364fb45fbae7f4175fda5c085removebgpreview-4@2x.png" class="custom-first-image" style="width: 100%; height: 100%; margin-top: 34px;">
+                            <a href="shoplisting-desing.html" style="list-style-type: none; text-decoration: none; color: #000;">
+
+                            <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background-color: white; width: 179px; height: 147px; border-radius: 20px;">
+                                <img src="images/image-21@2x.png" style="width: 100%; height: 100%; ">
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-3">
+                        <div class="custom-card" style="width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #F43465; position: relative;">
+                            <div style="position: absolute; top: 10px; left: 10px; color: white; font-weight: bold; font-size: 25px;">₹699</div>
+                            <img src="images/1-d24b14a364fb45fbae7f4175fda5c085removebgpreview-3@2x.png" class="custom-first-image" style="width: 100%; height: 100%; margin-top: 34px;">
+                            <a href="shoplisting-desing.html" style="list-style-type: none; text-decoration: none; color: #000;">
+
+                            <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background-color: white; width: 179px; height: 147px; border-radius: 20px;">
+                                <img src="images/image-21@2x.png" style="width: 100%; height: 100%; ">
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-lg-3">
+                        <div class="custom-card" style="width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #FF3CF8; position: relative;">
+                            <div style="position: absolute; top: 10px; left: 10px; color: white; font-weight: bold; font-size: 25px;">₹799</div>
+                            <img src="images/1-d24b14a364fb45fbae7f4175fda5c085removebgpreview-3@2x.png" class="custom-first-image" style="width: 100%; height: 100%; margin-top: 34px;">
+                            <a href="shoplisting-desing.html" style="list-style-type: none; text-decoration: none; color: #000;">
+
+                            <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); background-color: white; width: 179px; height: 147px; border-radius: 20px;">
+                                <img src="images/image-21@2x.png" style="width: 100%; height: 100%; ">
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            
+          </section>
+        </div>
+      </section>
+</section>
+
+ shop under section end here 
+
+
+
+
+
+
+
+
+
+
+
+   <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="flip-card1">
+          <div class="flip-card-inner1">
+            <div class="flip-card-front1">
+              <div class="client-logo">
+                <a href="Brand_Listing.html">
+                  <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460149/abof.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="flip-card-back1">
+              <div class="client-logo">
+                <a href="Brand_Listing.html">
+                  <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+       <div class="col-lg-3 col-md-4 col-xs-6">
+          <div class="flip-card1">
+            <div class="flip-card-inner1">
+              <div class="">
+              <div class="flip-card-front1">
+               
+                <div class="client-logo">
+                  <a href="Brand_Listing.html">
+                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460149/abof.png" class="img-fluid" alt="">
+                  </a>
+                </div>
+                </div>
+              </div>
+              <div class="">
+              <div class="flip-card-back1">
+                <div class="client-logo">
+                  <a href="Brand_Listing.html">
+            
+                    <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png" class="img-fluid" alt="">
+            
+                  </a>
+                </div>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+<div class="container-fluid mt-3">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner row w-100 mx-auto">
+        <div class="carousel-item col-md-4 active">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" alt="Card image cap">
+                
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png" alt="Card image cap">
+                 
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460224/cropped-cropped-20170720-lucuLogo-squ2-e1500543540803.png" alt="Card image cap">
+           
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" alt="Card image cap">
+                 
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460358/client-4.png" alt="Card image cap">
+                  
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" alt="Card image cap">
+                  
+                </div>
+              </div>
+              <div class="carousel-item col-md-4">
+                <div class="">
+                  <img class="card-img-top img-fluid" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1559460269/104840a62d46c05d285762857fecb61a.png" alt="Card image cap">
+                  
+                </div>
+              </div>
+      <!-- Repeat this for the remaining carousel items -->
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>

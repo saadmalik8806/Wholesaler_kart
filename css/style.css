@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  .navbar-brand img {
+    margin-right: 10px; /* Adjust the margin between the logo and text */
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  .navbar-brand img {
+    margin-right: 10px; /* Adjust the margin between the logo and text */
+  }
+  .navbar-brand span {
+    margin-top: 5px; /* Adjust the margin top of the text */
+  }
+  .navbar-nav {
+    margin-left: auto; /* Pushes nav items to the right */
+  }
+  .custom-navbar {
+    background-image: url('../images/diana1-1@2x.png'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* cards  */
+  .card {
+    margin: auto;
+    position: relative;
+    width: 300px; /* Decreased width */
+    height: 299px; /* Decreased height */
+    background: #B0D772;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  /* .card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #6D9F1C;
+    transform: skewY(345deg);
+    transition: 0.2s;
+  }
+  
+  .card:hover::before {
+    transform: skewY(390deg);
+  } */
+  
+  .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .card .info img {
+    max-width: 94%;
+    transition: 0.3s;
+  }
+  
+  /* .card:hover .info img {
+    max-width: 50%;
+  } */
+  
+  .card .info .title {
+    font-size: 2.0rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .card .info .container .row .col-sm-4 .price {
+    font-size: 1.3em;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .card .info .container .row .col-sm-4 .discount {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    margin: 12px auto;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: auto;
+    height: 30px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e57373;
+    text-align: center;
+    border-radius:4px;
+    padding:0 15px;
+  }
+  .card .info .container .row .col-sm-4 .discount:after {
+    content: " ";
+    height: 22px;
+    width: 22px;
+    background:#fff;
+    position: absolute;
+    top:4px;
+    left:-9px;
+    border-radius:4px;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);  
+  }
+  .card .info .container .row .col-sm-4 .discount:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #e57373;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+
+  /* CSS for small devices (up to 767.98px) */
+@media (max-width: 767.98px) {
+  /* Add styles for small devices here */
+  .custom-navbar {
+    background-image: url('../images/diana\ 1.png') !important; /* Mobile background image */
+  }
+  .flip-card-inner{
+    width: 0px !important;
+    height: 0px !important;
+  }
+  .card{
+    width: 244px;
+  }
+  .view-all-btn{
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+  }
+  nav.navbar.navbar-expand-lg.navbar-light{
+    background-color: #84DCF1 !important;
+  }
+  nav.navbar.navbar-light{
+    background-color: #29BDE0 !important;
+  }
+}
+
+/* CSS for medium devices (768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Add styles for medium devices here */
+  .custom-navbar {
+    background-image: url('../images/diana\ 1.png') !important; /* Mobile background image */
+  }
+  nav.navbar.navbar-expand-lg.navbar-light{
+    background-color: #84DCF1 !important;
+  }
+  nav.navbar.navbar-light{
+background-color: #29BDE0 !important;
+  }
+}
+
+/* CSS for large devices (992px and above) */
+@media (min-width: 992px) {
+  /* Add styles for large devices here */
+ 
+}
